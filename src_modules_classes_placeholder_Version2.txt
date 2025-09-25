@@ -1,0 +1,1 @@
+# Placeholder: Classes scheduling module (controllers, routes, etc.)

@@ -1,0 +1,11 @@
+<?php
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+
+// Example API route group
+Route::prefix('v1')->group(function () {
+    Route::get('/students', 'App\Http\Controllers\Api\StudentController@index');
+    Route::post('/students', 'App\Http\Controllers\Api\StudentController@store');
+    // Add more routes as needed
+});
